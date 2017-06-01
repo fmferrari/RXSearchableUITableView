@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C12C1A204588C3769E3439E /* Pods_ReactiveSearchableUITableViewTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EB20C3F01843A972B53BC04 /* Pods_ReactiveSearchableUITableViewTests.framework */; };
+		556138301EE0940D0092CC70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5561382F1EE0940D0092CC70 /* AppDelegate.swift */; };
+		556138371EE0940D0092CC70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 556138361EE0940D0092CC70 /* Assets.xcassets */; };
+		5561383A1EE0940D0092CC70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 556138381EE0940D0092CC70 /* LaunchScreen.storyboard */; };
+		556138451EE0940D0092CC70 /* ReactiveSearchableUITableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556138441EE0940D0092CC70 /* ReactiveSearchableUITableViewTests.swift */; };
+		556138501EE0980A0092CC70 /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5561384F1EE0980A0092CC70 /* Navigation.swift */; };
+		556138521EE0984B0092CC70 /* Wireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556138511EE0984B0092CC70 /* Wireframe.swift */; };
+		556138541EE099DB0092CC70 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556138531EE099DB0092CC70 /* BaseNavigationController.swift */; };
+		556138561EE09B740092CC70 /* MainWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556138551EE09B740092CC70 /* MainWireframe.swift */; };
+		556138591EE09C470092CC70 /* RXSearchableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556138571EE09C470092CC70 /* RXSearchableTableViewController.swift */; };
+		5561385A1EE09C470092CC70 /* RXSearchableTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 556138581EE09C470092CC70 /* RXSearchableTableViewController.xib */; };
+		5561385D1EE0A1230092CC70 /* PrototypeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5561385B1EE0A1230092CC70 /* PrototypeTableViewCell.swift */; };
+		5561385E1EE0A1230092CC70 /* PrototypeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5561385C1EE0A1230092CC70 /* PrototypeTableViewCell.xib */; };
+		88C198CE3E2C0002361EE62E /* Pods_ReactiveSearchableUITableView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA652B3A227F9D0DC84DBA0D /* Pods_ReactiveSearchableUITableView.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		556138411EE0940D0092CC70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 556138241EE0940D0092CC70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5561382B1EE0940D0092CC70;
+			remoteInfo = ReactiveSearchableUITableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5561382C1EE0940D0092CC70 /* ReactiveSearchableUITableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactiveSearchableUITableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5561382F1EE0940D0092CC70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		556138361EE0940D0092CC70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		556138391EE0940D0092CC70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5561383B1EE0940D0092CC70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		556138401EE0940D0092CC70 /* ReactiveSearchableUITableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactiveSearchableUITableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		556138441EE0940D0092CC70 /* ReactiveSearchableUITableViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactiveSearchableUITableViewTests.swift; sourceTree = "<group>"; };
+		556138461EE0940D0092CC70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5561384F1EE0980A0092CC70 /* Navigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
+		556138511EE0984B0092CC70 /* Wireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wireframe.swift; sourceTree = "<group>"; };
+		556138531EE099DB0092CC70 /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		556138551EE09B740092CC70 /* MainWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWireframe.swift; sourceTree = "<group>"; };
+		556138571EE09C470092CC70 /* RXSearchableTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RXSearchableTableViewController.swift; sourceTree = "<group>"; };
+		556138581EE09C470092CC70 /* RXSearchableTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RXSearchableTableViewController.xib; sourceTree = "<group>"; };
+		5561385B1EE0A1230092CC70 /* PrototypeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrototypeTableViewCell.swift; sourceTree = "<group>"; };
+		5561385C1EE0A1230092CC70 /* PrototypeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PrototypeTableViewCell.xib; sourceTree = "<group>"; };
+		6A96A62340ACB2F190F3ADAF /* Pods-ReactiveSearchableUITableViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveSearchableUITableViewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveSearchableUITableViewTests/Pods-ReactiveSearchableUITableViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6B2589C5D59D0CBBD286B08D /* Pods-ReactiveSearchableUITableView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveSearchableUITableView.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveSearchableUITableView/Pods-ReactiveSearchableUITableView.release.xcconfig"; sourceTree = "<group>"; };
+		7EB20C3F01843A972B53BC04 /* Pods_ReactiveSearchableUITableViewTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReactiveSearchableUITableViewTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF66380941F4CFB5E04056B6 /* Pods-ReactiveSearchableUITableViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveSearchableUITableViewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveSearchableUITableViewTests/Pods-ReactiveSearchableUITableViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		CA652B3A227F9D0DC84DBA0D /* Pods_ReactiveSearchableUITableView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReactiveSearchableUITableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB02D1854E6D9BA664B4733F /* Pods-ReactiveSearchableUITableView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveSearchableUITableView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveSearchableUITableView/Pods-ReactiveSearchableUITableView.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		556138291EE0940D0092CC70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88C198CE3E2C0002361EE62E /* Pods_ReactiveSearchableUITableView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5561383D1EE0940D0092CC70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C12C1A204588C3769E3439E /* Pods_ReactiveSearchableUITableViewTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		556138231EE0940D0092CC70 = {
+			isa = PBXGroup;
+			children = (
+				5561382E1EE0940D0092CC70 /* ReactiveSearchableUITableView */,
+				556138431EE0940D0092CC70 /* ReactiveSearchableUITableViewTests */,
+				5561382D1EE0940D0092CC70 /* Products */,
+				BAD5AE47393C74DD71C86895 /* Pods */,
+				76816FD089C0B792D76E2712 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5561382D1EE0940D0092CC70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5561382C1EE0940D0092CC70 /* ReactiveSearchableUITableView.app */,
+				556138401EE0940D0092CC70 /* ReactiveSearchableUITableViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5561382E1EE0940D0092CC70 /* ReactiveSearchableUITableView */ = {
+			isa = PBXGroup;
+			children = (
+				5561382F1EE0940D0092CC70 /* AppDelegate.swift */,
+				556138361EE0940D0092CC70 /* Assets.xcassets */,
+				556138381EE0940D0092CC70 /* LaunchScreen.storyboard */,
+				5561383B1EE0940D0092CC70 /* Info.plist */,
+				5561384F1EE0980A0092CC70 /* Navigation.swift */,
+				556138511EE0984B0092CC70 /* Wireframe.swift */,
+				556138531EE099DB0092CC70 /* BaseNavigationController.swift */,
+				556138551EE09B740092CC70 /* MainWireframe.swift */,
+				556138571EE09C470092CC70 /* RXSearchableTableViewController.swift */,
+				556138581EE09C470092CC70 /* RXSearchableTableViewController.xib */,
+				5561385B1EE0A1230092CC70 /* PrototypeTableViewCell.swift */,
+				5561385C1EE0A1230092CC70 /* PrototypeTableViewCell.xib */,
+			);
+			path = ReactiveSearchableUITableView;
+			sourceTree = "<group>";
+		};
+		556138431EE0940D0092CC70 /* ReactiveSearchableUITableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				556138441EE0940D0092CC70 /* ReactiveSearchableUITableViewTests.swift */,
+				556138461EE0940D0092CC70 /* Info.plist */,
+			);
+			path = ReactiveSearchableUITableViewTests;
+			sourceTree = "<group>";
+		};
+		76816FD089C0B792D76E2712 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA652B3A227F9D0DC84DBA0D /* Pods_ReactiveSearchableUITableView.framework */,
+				7EB20C3F01843A972B53BC04 /* Pods_ReactiveSearchableUITableViewTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BAD5AE47393C74DD71C86895 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CB02D1854E6D9BA664B4733F /* Pods-ReactiveSearchableUITableView.debug.xcconfig */,
+				6B2589C5D59D0CBBD286B08D /* Pods-ReactiveSearchableUITableView.release.xcconfig */,
+				6A96A62340ACB2F190F3ADAF /* Pods-ReactiveSearchableUITableViewTests.debug.xcconfig */,
+				BF66380941F4CFB5E04056B6 /* Pods-ReactiveSearchableUITableViewTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5561382B1EE0940D0092CC70 /* ReactiveSearchableUITableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 556138491EE0940D0092CC70 /* Build configuration list for PBXNativeTarget "ReactiveSearchableUITableView" */;
+			buildPhases = (
+				C7B6FC135242C112A5836A8A /* [CP] Check Pods Manifest.lock */,
+				556138281EE0940D0092CC70 /* Sources */,
+				556138291EE0940D0092CC70 /* Frameworks */,
+				5561382A1EE0940D0092CC70 /* Resources */,
+				601FBE18E83874E9BE42FB9A /* [CP] Embed Pods Frameworks */,
+				0C2A12A3457CCA1C3EF7DB0A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReactiveSearchableUITableView;
+			productName = ReactiveSearchableUITableView;
+			productReference = 5561382C1EE0940D0092CC70 /* ReactiveSearchableUITableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5561383F1EE0940D0092CC70 /* ReactiveSearchableUITableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5561384C1EE0940D0092CC70 /* Build configuration list for PBXNativeTarget "ReactiveSearchableUITableViewTests" */;
+			buildPhases = (
+				04BD96A0BC7E87F638AEFE62 /* [CP] Check Pods Manifest.lock */,
+				5561383C1EE0940D0092CC70 /* Sources */,
+				5561383D1EE0940D0092CC70 /* Frameworks */,
+				5561383E1EE0940D0092CC70 /* Resources */,
+				93D6D72ADDB088926E6DE2D3 /* [CP] Embed Pods Frameworks */,
+				824E45BC1817BE151DDDDFB9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				556138421EE0940D0092CC70 /* PBXTargetDependency */,
+			);
+			name = ReactiveSearchableUITableViewTests;
+			productName = ReactiveSearchableUITableViewTests;
+			productReference = 556138401EE0940D0092CC70 /* ReactiveSearchableUITableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		556138241EE0940D0092CC70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Felipe Ferrari";
+				TargetAttributes = {
+					5561382B1EE0940D0092CC70 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = N48TA5CDJR;
+						ProvisioningStyle = Automatic;
+					};
+					5561383F1EE0940D0092CC70 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = N48TA5CDJR;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5561382B1EE0940D0092CC70;
+					};
+				};
+			};
+			buildConfigurationList = 556138271EE0940D0092CC70 /* Build configuration list for PBXProject "ReactiveSearchableUITableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 556138231EE0940D0092CC70;
+			productRefGroup = 5561382D1EE0940D0092CC70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5561382B1EE0940D0092CC70 /* ReactiveSearchableUITableView */,
+				5561383F1EE0940D0092CC70 /* ReactiveSearchableUITableViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5561382A1EE0940D0092CC70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5561385E1EE0A1230092CC70 /* PrototypeTableViewCell.xib in Resources */,
+				5561385A1EE09C470092CC70 /* RXSearchableTableViewController.xib in Resources */,
+				5561383A1EE0940D0092CC70 /* LaunchScreen.storyboard in Resources */,
+				556138371EE0940D0092CC70 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5561383E1EE0940D0092CC70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04BD96A0BC7E87F638AEFE62 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		0C2A12A3457CCA1C3EF7DB0A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactiveSearchableUITableView/Pods-ReactiveSearchableUITableView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		601FBE18E83874E9BE42FB9A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactiveSearchableUITableView/Pods-ReactiveSearchableUITableView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		824E45BC1817BE151DDDDFB9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactiveSearchableUITableViewTests/Pods-ReactiveSearchableUITableViewTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93D6D72ADDB088926E6DE2D3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactiveSearchableUITableViewTests/Pods-ReactiveSearchableUITableViewTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7B6FC135242C112A5836A8A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		556138281EE0940D0092CC70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				556138561EE09B740092CC70 /* MainWireframe.swift in Sources */,
+				556138591EE09C470092CC70 /* RXSearchableTableViewController.swift in Sources */,
+				556138541EE099DB0092CC70 /* BaseNavigationController.swift in Sources */,
+				5561385D1EE0A1230092CC70 /* PrototypeTableViewCell.swift in Sources */,
+				556138301EE0940D0092CC70 /* AppDelegate.swift in Sources */,
+				556138501EE0980A0092CC70 /* Navigation.swift in Sources */,
+				556138521EE0984B0092CC70 /* Wireframe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5561383C1EE0940D0092CC70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				556138451EE0940D0092CC70 /* ReactiveSearchableUITableViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		556138421EE0940D0092CC70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5561382B1EE0940D0092CC70 /* ReactiveSearchableUITableView */;
+			targetProxy = 556138411EE0940D0092CC70 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		556138381EE0940D0092CC70 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				556138391EE0940D0092CC70 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		556138471EE0940D0092CC70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		556138481EE0940D0092CC70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5561384A1EE0940D0092CC70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB02D1854E6D9BA664B4733F /* Pods-ReactiveSearchableUITableView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N48TA5CDJR;
+				INFOPLIST_FILE = ReactiveSearchableUITableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.theamalgama.ReactiveSearchableUITableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5561384B1EE0940D0092CC70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B2589C5D59D0CBBD286B08D /* Pods-ReactiveSearchableUITableView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N48TA5CDJR;
+				INFOPLIST_FILE = ReactiveSearchableUITableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.theamalgama.ReactiveSearchableUITableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		5561384D1EE0940D0092CC70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A96A62340ACB2F190F3ADAF /* Pods-ReactiveSearchableUITableViewTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = N48TA5CDJR;
+				INFOPLIST_FILE = ReactiveSearchableUITableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.theamalgama.ReactiveSearchableUITableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactiveSearchableUITableView.app/ReactiveSearchableUITableView";
+			};
+			name = Debug;
+		};
+		5561384E1EE0940D0092CC70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF66380941F4CFB5E04056B6 /* Pods-ReactiveSearchableUITableViewTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = N48TA5CDJR;
+				INFOPLIST_FILE = ReactiveSearchableUITableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.theamalgama.ReactiveSearchableUITableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactiveSearchableUITableView.app/ReactiveSearchableUITableView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		556138271EE0940D0092CC70 /* Build configuration list for PBXProject "ReactiveSearchableUITableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				556138471EE0940D0092CC70 /* Debug */,
+				556138481EE0940D0092CC70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		556138491EE0940D0092CC70 /* Build configuration list for PBXNativeTarget "ReactiveSearchableUITableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5561384A1EE0940D0092CC70 /* Debug */,
+				5561384B1EE0940D0092CC70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5561384C1EE0940D0092CC70 /* Build configuration list for PBXNativeTarget "ReactiveSearchableUITableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5561384D1EE0940D0092CC70 /* Debug */,
+				5561384E1EE0940D0092CC70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 556138241EE0940D0092CC70 /* Project object */;
+}
